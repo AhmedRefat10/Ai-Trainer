@@ -4,5 +4,4 @@ opencv-contrib-python-headless
 pandas
 numpy
 mediapipe
-lightgbm
-scikit-learn~=0.22
+scikit-learn
