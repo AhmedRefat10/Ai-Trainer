@@ -171,8 +171,8 @@ def workout_detection( clf,scaler,frame, frames_counter, workout_for_Second, cur
 #     counters = ''
 
 #     # Load the trained model and scaler
-#     clf = joblib.load('workout_classifier_model.pkl')
-#     scaler = joblib.load('scaler.pkl')
+#     clf = joblib.load('workout_classifier_model.joblib')
+#     scaler = joblib.load('scaler.joblib')
 
 #     # Open the video file (or use a webcam by passing 0 to VideoCapture)
 #     cap = cv2.VideoCapture(vid_path)
@@ -274,8 +274,8 @@ def release_assistant(vid_path, st_frame_placeholder):
     counters = ''
 
     # Load the trained model and scaler
-    clf = joblib.load('workout_classifier_model.pkl')
-    scaler = joblib.load('scaler.pkl')
+    clf = joblib.load('workout_classifier_model.joblib')
+    scaler = joblib.load('scaler.joblib')
 
     # Open the video file
     cap = cv2.VideoCapture(vid_path)
