@@ -5,3 +5,4 @@ pandas~=2.2.2
 numpy~=1.26.4
 mediapipe~=0.10.14
 joblib~=1.2.0
+lightgbm
