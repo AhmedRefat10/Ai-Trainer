@@ -5,4 +5,3 @@ pandas
 numpy
 mediapipe
 scikit-learn
-libgl1
